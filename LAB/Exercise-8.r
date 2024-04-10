@@ -2,6 +2,7 @@
 # Created on: 09-04-2024 21:04:36
 # Description: Write a R program to combine three arrays so that the first row of the first array is followed by the first row of the second array and then first row of the third array.
 
+
 # Create the first set of data
 letters_array1 <- rbind(rep("A", 3), rep("B", 3), rep("C", 3))
 print("letters_array1:")
