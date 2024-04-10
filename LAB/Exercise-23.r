@@ -23,3 +23,15 @@ main_list <- main_list[-2]
 
 # Print the modified list
 print(main_list)
+
+
+# Manipulating Lists in R:
+# Lists in R are flexible data structures that can contain elements of different types, 
+# including vectors, matrices, other lists, and more. Elements can be added, removed, or modified 
+# within a list using various indexing techniques.
+
+# Removing Elements from Lists:
+# Elements can be removed from a list by using negative indexing.
+#  By specifying the index of the element to be removed preceded by a minus sign, 
+#  that element is excluded from the list.
+
