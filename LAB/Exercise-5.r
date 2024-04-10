@@ -20,3 +20,13 @@ cat("Unique Elements in String: ", unique_chars, "\n")
 
 cat("Original Vector: ", input_vector, "\n")
 cat("Unique Numbers in Vector: ", unique_numbers, "\n")
+
+
+# Extracting Unique Elements:
+# The strsplit() function in R is used to split a string into substrings based on a specified delimiter.
+#  By providing NULL as the delimiter, it splits the string into individual characters. 
+#  The unique() function is then used to extract unique elements from the resulting list of characters.
+
+# Extracting Unique Numbers:
+# The unique() function in R is used to extract unique elements from a vector. 
+# It returns a vector containing only the unique elements of the input vector.
