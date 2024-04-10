@@ -13,3 +13,13 @@ result_vector <- vector1 * vector2
 cat("Vector 1: ", vector1, "\n")
 cat("Vector 2: ", vector2, "\n")
 cat("Result: ", result_vector, "\n")
+
+# Element-wise Operations:
+# In R, arithmetic operations like multiplication (*), addition (+), subtraction (-), and division (/) are performed 
+# element-wise when applied to vectors. 
+# Element-wise operations involve applying the operation to corresponding elements of vectors.
+
+# Vectorized Operations:
+# R is designed to handle vectorized operations efficiently.
+#  When performing operations between two vectors of the same length, R automatically applies the operation element-wise, 
+#  resulting in a vector with the same length as the input vectors.
