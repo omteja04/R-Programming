@@ -11,3 +11,11 @@ branch_code <- 05
 print(ls())
 print("Details of the objects in memory:")
 print(ls.str())
+
+
+# In R, an object is a data structure having some attributes or properties,such as values, class, and dimension.
+# Objects can be created and manipulated during an R session.
+# Common types of objects include vectors, matrices, data frames, lists, functions, etc.
+# Objects are stored in memory and can be referenced by their names.
+# The ls() function is used to list the names of all objects in the current environment,
+# while ls.str() provides detailed information about each object, including their class, dimensions, and structure.
