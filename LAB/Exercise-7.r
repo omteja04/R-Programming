@@ -20,3 +20,11 @@ print(matrix_3x3_rows)
 
 cat("\n2x2 Matrix (filling by columns):\n")
 print(matrix_2x2_cols)
+
+# Specifying Row and Column Names:
+# In R matrices, row and column names can be assigned using the dimnames parameter. 
+# This allows for labeling the rows and columns, providing context to the data stored in the matrix.
+
+# Filling Matrices by Rows or Columns:
+# The byrow parameter in the matrix() function determines whether the matrix is filled by rows (TRUE) or by columns (FALSE). 
+# This parameter controls the order in which elements from the input data are arranged in the matrix.
