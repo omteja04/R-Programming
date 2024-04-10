@@ -25,4 +25,6 @@ print(main_list)
 
 
 # Naming List Elements:
-# Naming elements in a list allows for easier identification and reference to the contents of the list. In R, elements of a list can be assigned names using the names() function, providing descriptive labels to each element.
+# Naming elements in a list allows for easier identification and reference to the contents of the list.
+#  In R, elements of a list can be assigned names using the names() function,
+#  providing descriptive labels to each element.
