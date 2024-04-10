@@ -13,3 +13,9 @@ factor_levels <- levels(sample_factor)
 
 # Print the levels
 print(factor_levels)
+
+# Factors and Levels:
+# In R, factors are used to represent categorical data. Each factor has a set of levels, 
+# which are the unique categories or groups present in the data.
+# The levels() function is used to extract or set the levels of a factor.
+# It returns a character vector containing the unique levels present in the factor.
