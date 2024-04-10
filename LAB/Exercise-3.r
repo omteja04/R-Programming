@@ -9,3 +9,11 @@ print(mean(20:60))
 print("Sum of numbers from 51 to 91:")
 print(sum(51:91))
 
+# Sequence Generation (seq()):
+# The seq() function generates sequences of numbers in R. It takes arguments for the starting value, ending value, and optional increment (or decrement) value to generate the sequence.
+
+# Mean Calculation (mean()):
+# The mean() function computes the arithmetic mean (average) of a numeric vector in R. It sums up all the values and divides by the total number of values.
+
+# Summation (sum()):
+# The sum() function calculates the sum of all the elements in a numeric vector. It adds up all the values in the specified range.
