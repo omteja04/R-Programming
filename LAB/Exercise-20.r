@@ -19,3 +19,15 @@ cat("Cleaned Vector: ", cleaned_vector, "\n")
 cat("Sum: ", sum_result, "\n")
 cat("Mean: ", mean_result, "\n")
 cat("Product: ", product_result, "\n")
+
+
+
+# Handling Missing Values:
+# In real-world datasets, missing values are common and can affect analysis.
+#  R provides functions like is.na() and is.nan() to detect missing values (NA) and not-a-number values (NaN), 
+# respectively. These functions are often used in conjunction with logical indexing to remove or handle missing values before analysis.
+
+# Sum, Mean, and Product:
+# Calculating the sum, mean, and product of a vector are basic statistical operations in R. 
+# The sum(), mean(), and prod() functions are used for these calculations,
+#  providing convenient ways to perform arithmetic operations on numeric vectors.
