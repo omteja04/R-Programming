@@ -22,3 +22,16 @@ print(duplicated_elements)
 cat("\nUnique Rows:\n")
 unique_rows <- unique(my_data_frame)
 print(unique_rows)
+
+
+# Identifying Duplicated Elements:
+# The duplicated() function in R is used to identify duplicated elements in a vector or rows in a data frame.
+#  It returns a logical vector indicating which elements or rows are duplicates.
+
+# Selecting Duplicated Elements:
+# To select duplicated elements or rows from a data frame, 
+# the logical vector returned by duplicated() can be used as a criterion to subset the data frame.
+
+# Identifying Unique Rows:
+# The unique() function in R is used to identify unique rows in a data frame. 
+# It returns a data frame containing only the unique rows from the original data frame.
