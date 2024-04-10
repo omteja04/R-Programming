@@ -20,3 +20,17 @@ matrix_from_list <- matrix(
 # Print the result
 print("Matrix created from the list of vectors:")
 print(matrix_from_list)
+
+# Combining Vectors into a List:
+# In R, lists can contain elements of different types, including vectors. 
+# By combining vectors into a list, it's possible to manipulate them as a single object.
+
+# Creating a Matrix from a List of Vectors:
+# The matrix() function can accept a vector as input to create a matrix. 
+# By using unlist() to convert the list of vectors into a single vector,
+#  we can then create a matrix with desired dimensions.
+
+# Row-wise Filling:
+# Setting byrow = TRUE in the matrix() function ensures that the elements from the vector are filled 
+# into the matrix row-wise. This means that each row of the resulting matrix corresponds to 
+# one of the vectors in the list.
