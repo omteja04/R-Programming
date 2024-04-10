@@ -30,3 +30,9 @@ print(first_element)
 second_element <- main_list[[2]]
 print("Second element of the list:")
 print(second_element)
+
+# Naming List Elements:
+# Naming elements in a list allows for easier identification and reference to the contents of the list. In R, elements of a list can be assigned names using the names() function, providing descriptive labels to each element.
+
+# Accessing List Elements:
+# Elements within a list can be accessed using double square brackets [[ ]] followed by the index of the desired element. This allows for retrieval of specific elements from the list for further manipulation or analysis.
