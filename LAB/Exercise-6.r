@@ -10,3 +10,7 @@ c <- c(7, 8, 9)
 m <- cbind(a, b, c)
 print("Content of the said matrix:")
 print(m)
+
+# Combining Vectors into a Matrix:
+# cbind(a, b, c) combines the vectors a, b, and c column-wise to create a matrix m. 
+# Each vector becomes a column in the matrix.
